@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form And Show Data in Same Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-data">
+            <form enctype="multipart/form-data" method="post">
+                <h4>Registration Form</h4>
+                <!-- Input from User -->
+                <label for="#">Enter Name</label><br>
+                <input type="text" placeholder='Name' id="name"><br><br>
+
+                <label for="#">Enter Email</label><br>
+                <input type="email" placeholder='Email' id="email"><br><br>
+                
+                <label for="#">Enter Phone number</label><br>
+                <input type="phone" placeholder='Phone Number' id="num"><br><br>
+
+                <label for="#">Enter Website URL</label><br>
+                <input type="link" placeholder='website' id="website"><br><br>
+
+                <input id='btn' type="submit" placeholder='Register' onclick="register(event)">
+            </form>
+        </div>
+        <div class="output-data">
+            <!-- Output Form Details -->
+            <span id="display_name"></span><br><br>
+            <span id="display_email"></span><br><br>
+            <span id="display_num"></span><br><br>
+            <span id="display_webiste"></span><br><br>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

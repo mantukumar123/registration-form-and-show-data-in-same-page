@@ -1,0 +1,27 @@
+body{
+    background: rgb(192, 227, 255);
+}
+
+.container{
+    display: flex;
+    /* gap: rem; */
+    background: white;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+.input-data{
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.output-data{
+    justify-content: center;
+    /* background-color: antiquewhite; */
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(28, 29, 29);
+}
